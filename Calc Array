@@ -1,0 +1,27 @@
+using System;
+using System.Linq;
+class Program
+
+
+
+{
+    static void Main()
+    {
+        
+       
+        int[] array1  = { 5, 4, 3, 2, 1 };
+        
+        int[] numbers = { 5, 4, 3, 2, 1 };
+        
+        Console.WriteLine("Maximum: " +array1.Max());
+        
+        
+        Console.WriteLine("Minimum: " +array1.Min());
+       
+       
+        double mean = numbers.Average(); 
+        Console.WriteLine(("Mean:    " + mean));
+       
+       
+    }
+}
